@@ -1,0 +1,10 @@
+.\obj\diskio.o: Project\diskio.c
+.\obj\diskio.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\obj\diskio.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\obj\diskio.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\diskio.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\obj\diskio.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\obj\diskio.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\diskio.o: Project\diskio.h
+.\obj\diskio.o: Project\typedef.h
+.\obj\diskio.o: Project\HardwareConfig.h

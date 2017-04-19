@@ -1,0 +1,26 @@
+~inc:header.inc~
+~inc:configheader.inc~
+
+<form method="post" action="/confighw.htm" name="confighw">
+<fieldset>
+<div><label>Số IMEI:</label>
+<input type="text" name="imei" value="~config_imei~" ~config_imei_disabled~/></div>
+<div><label>Chiều rộng bảng LED:</label>
+<input type="text" name="w" value="~config_width~" disabled="disabled"/></div>
+<div><label>Chiều cao bảng LED:</label>
+<input type="text" name="h" value="~config_height~" disabled="disabled"/></div>
+<div>
+<label>Kiểu quét LED:</label>
+<select name="type">
+	<option value="1" ~scan_1~>Tĩnh</option>
+	<option value="2" ~scan_2~>Quét 1/4 loại 1</option>
+	<option value="3" ~scan_3~>Quét 1/4 loại 2</option>
+	<option value="4" ~scan_4~>Quét 1/8</option>
+</select>
+</div>
+
+<div><input type="submit" class="sm" value="Lưu" /></div>
+</fieldset>
+</form>
+</div>
+~inc:footer.inc~

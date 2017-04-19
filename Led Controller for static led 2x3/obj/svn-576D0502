@@ -1,0 +1,440 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\LED Matrix project\SVN\trunk\WIP\thaibv\Source Code\VMS Lu Gia\Led Controller\Led Controller.uvproj
+Project File Date:  01/24/2014
+
+<h2>Output:</h2>
+Build target 'LED Controller'
+linking...
+.\obj\Led Controller.axf: Error: L6218E: Undefined symbol IWDG_Enable (referred from main.o).
+.\obj\Led Controller.axf: Error: L6218E: Undefined symbol IWDG_ReloadCounter (referred from main.o).
+.\obj\Led Controller.axf: Error: L6218E: Undefined symbol IWDG_SetPrescaler (referred from main.o).
+.\obj\Led Controller.axf: Error: L6218E: Undefined symbol IWDG_SetReload (referred from main.o).
+.\obj\Led Controller.axf: Error: L6218E: Undefined symbol IWDG_WriteAccessCmd (referred from main.o).
+Target not created
+Build target 'LED Controller'
+compiling stm32f10x_iwdg.c...
+linking...
+Program Size: Code=31580 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=31580 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(100): warning:  #177-D: variable "j" was declared but never referenced
+Project\main.c(600): warning:  #940-D: missing return statement at end of non-void function "updatePage"
+Project\main.c(492): warning:  #550-D: variable "x" was set but never used
+Project\main.c(492): warning:  #550-D: variable "y" was set but never used
+Project\main.c(961): warning:  #177-D: variable "j" was declared but never referenced
+Project\main.c(962): warning:  #177-D: variable "temp" was declared but never referenced
+Project\main.c(963): warning:  #177-D: variable "indexStep" was declared but never referenced
+Project\main.c(964): warning:  #177-D: variable "index_temp" was declared but never referenced
+Project\main.c(965): warning:  #177-D: variable "index" was declared but never referenced
+Project\main.c(966): warning:  #177-D: variable "length" was declared but never referenced
+Project\main.c(1338): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1498): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=31580 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 12 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=31580 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+compiling ledMatrix.c...
+Project\ledMatrix.c(290): error:  #147-D: declaration is incompatible with "void display(u8 *)" (declared at line 83 of "Project\ledMatrix.h")
+Project\ledMatrix.c(307): error:  #20: identifier "ledData" is undefined
+Project\ledMatrix.c(374): error:  #20: identifier "data" is undefined
+Target not created
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(100): warning:  #177-D: variable "j" was declared but never referenced
+Project\main.c(600): warning:  #940-D: missing return statement at end of non-void function "updatePage"
+Project\main.c(492): warning:  #550-D: variable "x" was set but never used
+Project\main.c(492): warning:  #550-D: variable "y" was set but never used
+Project\main.c(961): warning:  #177-D: variable "j" was declared but never referenced
+Project\main.c(962): warning:  #177-D: variable "temp" was declared but never referenced
+Project\main.c(963): warning:  #177-D: variable "indexStep" was declared but never referenced
+Project\main.c(964): warning:  #177-D: variable "index_temp" was declared but never referenced
+Project\main.c(965): warning:  #177-D: variable "index" was declared but never referenced
+Project\main.c(966): warning:  #177-D: variable "length" was declared but never referenced
+Project\main.c(1338): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1498): warning:  #550-D: variable "status" was set but never used
+compiling stm32f10x_it.c...
+Project\stm32f10x_it.c(204): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(212): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(218): warning:  #550-D: variable "temp" was set but never used
+Project\stm32f10x_it.c(264): warning:  #223-D: function "loadPredefinedImg" declared implicitly
+compiling ledMatrix.c...
+Project\ledMatrix.c(307): error:  #20: identifier "ledData" is undefined
+Project\ledMatrix.c(374): error:  #20: identifier "data" is undefined
+compiling HardwareConfig.c...
+compiling font.c...
+Project\font.c(435): warning:  #550-D: variable "status" was set but never used
+Target not created
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(100): warning:  #177-D: variable "j" was declared but never referenced
+Project\main.c(600): warning:  #940-D: missing return statement at end of non-void function "updatePage"
+Project\main.c(492): warning:  #550-D: variable "x" was set but never used
+Project\main.c(492): warning:  #550-D: variable "y" was set but never used
+Project\main.c(961): warning:  #177-D: variable "j" was declared but never referenced
+Project\main.c(962): warning:  #177-D: variable "temp" was declared but never referenced
+Project\main.c(963): warning:  #177-D: variable "indexStep" was declared but never referenced
+Project\main.c(964): warning:  #177-D: variable "index_temp" was declared but never referenced
+Project\main.c(965): warning:  #177-D: variable "index" was declared but never referenced
+Project\main.c(966): warning:  #177-D: variable "length" was declared but never referenced
+Project\main.c(1338): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1498): warning:  #550-D: variable "status" was set but never used
+compiling stm32f10x_it.c...
+Project\stm32f10x_it.c(204): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(212): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(218): warning:  #550-D: variable "temp" was set but never used
+Project\stm32f10x_it.c(264): warning:  #223-D: function "loadPredefinedImg" declared implicitly
+compiling ledMatrix.c...
+compiling HardwareConfig.c...
+compiling font.c...
+Project\font.c(435): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=31580 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 17 Warning(s).
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(531): error:  #20: identifier "x" is undefined
+Project\main.c(532): error:  #20: identifier "y" is undefined
+Project\main.c(1340): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1500): warning:  #550-D: variable "status" was set but never used
+Target not created
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(1340): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1500): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 2 Warning(s).
+Clean started: Project: 'Led Controller'
+   deleting intermediate output files for target 'LED Controller'
+Build target 'LED Controller'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_usart.c...
+compiling misc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_iwdg.c...
+compiling main.c...
+Project\main.c(1340): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1500): warning:  #550-D: variable "status" was set but never used
+compiling stm32f10x_it.c...
+Project\stm32f10x_it.c(204): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(212): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(218): warning:  #550-D: variable "temp" was set but never used
+Project\stm32f10x_it.c(264): warning:  #223-D: function "loadPredefinedImg" declared implicitly
+compiling ledMatrix.c...
+compiling HardwareConfig.c...
+compiling font.c...
+Project\font.c(435): warning:  #550-D: variable "status" was set but never used
+compiling c_func.c...
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 7 Warning(s).
+Build target 'LED Controller'
+compiling main.c...
+Project\ledMatrix.h(84): error:  #20: identifier "BOOL" is undefined
+Project\main.c(1339): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1499): warning:  #550-D: variable "status" was set but never used
+compiling stm32f10x_it.c...
+Project\LedMatrix.h(84): error:  #20: identifier "BOOL" is undefined
+Project\stm32f10x_it.c(218): warning:  #550-D: variable "temp" was set but never used
+compiling ledMatrix.c...
+Project\ledMatrix.h(84): error:  #20: identifier "BOOL" is undefined
+compiling HardwareConfig.c...
+Project\LedMatrix.h(84): error:  #20: identifier "BOOL" is undefined
+compiling font.c...
+Project\font.c(435): warning:  #550-D: variable "status" was set but never used
+Target not created
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(1339): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1499): warning:  #550-D: variable "status" was set but never used
+compiling stm32f10x_it.c...
+Project\stm32f10x_it.c(204): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(212): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(218): warning:  #550-D: variable "temp" was set but never used
+compiling ledMatrix.c...
+compiling HardwareConfig.c...
+compiling font.c...
+Project\font.c(435): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 6 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Lu Gia\\Led Controller\\obj\\Led Controller.AXF" 
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Lu Gia\\Led Controller\\obj\\Led Controller.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 1000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30828 RO-data=868 RW-data=112 ZI-data=52412  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Lu Gia\\Led Controller\\obj\\Led Controller.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 1000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'LED Controller'
+compiling main.c...
+Project\main.c(1339): warning:  #550-D: variable "status" was set but never used
+Project\main.c(1499): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=30768 RO-data=852 RW-data=112 ZI-data=52416  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 2 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30768 RO-data=852 RW-data=112 ZI-data=52416  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Lu Gia\\Led Controller\\obj\\Led Controller.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 1000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'LED Controller'
+compiling stm32f10x_it.c...
+Project\stm32f10x_it.c(216): warning:  #550-D: variable "temp" was set but never used
+Project\stm32f10x_it.c(277): warning:  #223-D: function "OE_Control" declared implicitly
+Project\stm32f10x_it.c(286): warning:  #223-D: function "OE_Control" declared implicitly
+linking...
+Program Size: Code=30820 RO-data=852 RW-data=112 ZI-data=52416  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 3 Warning(s).
+Build target 'LED Controller'
+linking...
+Program Size: Code=30820 RO-data=852 RW-data=112 ZI-data=52416  
+FromELF: creating hex file...
+".\obj\Led Controller.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Lu Gia\\Led Controller\\obj\\Led Controller.AXF" 
+
+JLink info:
+-----------
+DLL: V4.11i, compiled Jan 28 2010 19:55:25
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 1000 kHz
+---
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

@@ -1,0 +1,10 @@
+.\Obj\port.o: FreeRTOS\Portable\Keil\port.c
+.\Obj\port.o: .\FreeRTOS\include\FreeRTOS.h
+.\Obj\port.o: C:\Keil\ARM\RV31\INC\stddef.h
+.\Obj\port.o: .\FreeRTOS\include\projdefs.h
+.\Obj\port.o: .\Project\FreeRTOSConfig.h
+.\Obj\port.o: .\FreeRTOS\include\portable.h
+.\Obj\port.o: .\FreeRTOS\Portable\Keil\portmacro.h
+.\Obj\port.o: .\FreeRTOS\include\mpu_wrappers.h
+.\Obj\port.o: .\FreeRTOS\include\task.h
+.\Obj\port.o: .\FreeRTOS\include\list.h

@@ -1,0 +1,191 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\LED Matrix project\Source code\Main Controller\Main Controller.uvproj
+Project File Date:  03/11/2013
+
+<h2>Output:</h2>
+Build target 'Main Controller'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_usart.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(179): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(180): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(181): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(182): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(198): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(198): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(203): error:  #20: identifier "uint16_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(203): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(206): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(209): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(214): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(219): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(222): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(227): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(232): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(265): error:  #20: identifier "uint8_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(265): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(269): error:  #20: identifier "uint8_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(269): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(273): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(305): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(316): error:  #20: identifier "uint16_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(316): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(322): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(322): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(325): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(361): error:  #20: identifier "uint16_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(361): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(366): error:  #20: identifier "uint16_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c(366): error:  #18: expected a ")"
+compiling stm32f10x_rcc.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(194): error:  #20: identifier "__I" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(194): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(195): error:  #20: identifier "__I" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(195): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(221): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(221): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(225): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(231): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(234): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(237): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(271): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(277): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(277): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(279): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(285): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(290): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(290): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(307): error:  #20: identifier "__IO" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(307): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(315): error:  #20: identifier "StartUpCounter" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(316): error:  #20: identifier "StartUpCounter" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(316): error:  #20: identifier "HSE_STARTUP_TIMEOUT" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(335): error:  #757: variable "uint8_t" is not a type name
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(337): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(342): error:  #20: identifier "uint32_t" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(342): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(344): error:  #65: expected a ";"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(359): error:  #20: identifier "__IO" is undefined
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(359): error:  #18: expected a ")"
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(359): error:  #20: identifier "uint32_t" is undefined
+compiling main.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(30): error:  #55: too many arguments in macro invocation
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(30): error:  #79: expected a type specifier
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(31): error:  #55: too many arguments in macro invocation
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(31): error:  #79: expected a type specifier
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(32): error:  #55: too many arguments in macro invocation
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(32): error:  #79: expected a type specifier
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h(58): error:  #256: invalid redeclaration of type name "ADC_TypeDef" (declared at line 389 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h(154): error:  #256: invalid redeclaration of type name "BKP_TypeDef" (declared at line 488 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h(163): error:  #256: invalid redeclaration of type name "CAN_TxMailBox_TypeDef" (declared at line 500 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+compiling stm32f10x_it.c...
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(23): error:  #256: invalid redeclaration of type name "s32" (declared at line 312 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(27): error:  #256: invalid redeclaration of type name "sc32" (declared at line 316 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(31): error:  #256: invalid redeclaration of type name "vs32" (declared at line 320 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(35): error:  #256: invalid redeclaration of type name "vsc32" (declared at line 324 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(39): error:  #256: invalid redeclaration of type name "u32" (declared at line 328 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(43): error:  #256: invalid redeclaration of type name "uc32" (declared at line 332 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(47): error:  #256: invalid redeclaration of type name "vu32" (declared at line 336 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(51): error:  #256: invalid redeclaration of type name "vuc32" (declared at line 340 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "FALSE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #101: "TRUE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(55): error:  #256: invalid redeclaration of type name "bool" (declared at line 345 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "RESET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #101: "SET" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "FlagStatus" (declared at line 348 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(57): error:  #256: invalid redeclaration of type name "ITStatus" (declared at line 348 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "DISABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #101: "ENABLE" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(59): error:  #256: invalid redeclaration of type name "FunctionalState" (declared at line 350 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "ERROR" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #101: "SUCCESS" has already been declared in the current scope
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_type.h(62): error:  #256: invalid redeclaration of type name "ErrorStatus" (declared at line 353 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(30): error:  #55: too many arguments in macro invocation
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(30): error:  #79: expected a type specifier
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(31): error:  #55: too many arguments in macro invocation
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(31): error:  #79: expected a type specifier
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(32): error:  #55: too many arguments in macro invocation
+C:\Keil\ARM\INC\ST\STM32F10x\cortexm3_macro.h(32): error:  #79: expected a type specifier
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h(58): error:  #256: invalid redeclaration of type name "ADC_TypeDef" (declared at line 389 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h(154): error:  #256: invalid redeclaration of type name "BKP_TypeDef" (declared at line 488 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h(163): error:  #256: invalid redeclaration of type name "CAN_TxMailBox_TypeDef" (declared at line 500 of "C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h")
+Target not created
+Build target 'Main Controller'
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_rcc.c...
+compiling main.c...
+Project\main.c(24): warning:  #177-D: variable "adc" was declared but never referenced
+compiling stm32f10x_it.c...
+linking...
+.\Obj\Main Controller.axf: Error: L6218E: Undefined symbol GPIO_Init (referred from main.o).
+Target not created
+Build target 'Main Controller'
+compiling stm32f10x_gpio.c...
+linking...
+Program Size: Code=9904 RO-data=336 RW-data=44 ZI-data=1668  
+FromELF: creating hex file...
+".\Obj\Main Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Main Controller'
+compiling stm32f10x_usart.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling main.c...
+Project\main.c(24): warning:  #177-D: variable "adc" was declared but never referenced
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=9904 RO-data=336 RW-data=44 ZI-data=1668  
+FromELF: creating hex file...
+".\Obj\Main Controller.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Main Controller'
+compiling main.c...
+linking...
+Program Size: Code=9904 RO-data=336 RW-data=44 ZI-data=1668  
+FromELF: creating hex file...
+".\Obj\Main Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Main Controller'
+compiling stm32f10x_usart.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling misc.c...
+compiling main.c...
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=10456 RO-data=336 RW-data=44 ZI-data=1668  
+FromELF: creating hex file...
+".\Obj\Main Controller.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Main Controller'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=10432 RO-data=336 RW-data=40 ZI-data=1672  
+FromELF: creating hex file...
+".\Obj\Main Controller.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\Source code\\Main Controller\\Obj\\Main Controller.AXF" 
+Load "E:\\Project\\LED Matrix project\\Source code\\Main Controller\\Obj\\Main Controller.AXF" 

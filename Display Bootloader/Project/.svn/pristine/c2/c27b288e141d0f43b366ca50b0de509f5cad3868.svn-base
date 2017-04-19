@@ -1,0 +1,183 @@
+#include "stm32f10x_flash.h"
+#include "stm32f10x_usart.h"
+#include "stm32f10x_iwdg.h"
+#include "updateFW.h"
+
+
+#define FLASH_PAGE_SIZE		2048
+
+#define ACK					0x7F
+#define NACK				0x19
+#define CMD_WRITE			0x31
+#define CMD_REBOOT			0x41
+#define CMD_RUN_APP			0x51
+#define CMD_UPDATE_COMPLETE	0x61
+
+bool flagUpdate = false; 
+static u8 fwBuff[FLASH_PAGE_SIZE];
+pFunction Jump_To_Application;
+u32 JumpAddress;
+extern u32 timingCount;
+
+//================================================
+/* Copy memory to memory */
+static void mem_cpy (void* dst, const void* src, u16 cnt) 
+{
+	u8 *d = (u8*)dst;
+	const u8 *s = (const u8*)src;
+ 
+	while (cnt--)
+		*d++ = *s++;
+}
+
+//================================================
+static u8 USART_GetC(void)
+{
+	u8 c = 0;
+	
+	while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET) {};
+	c = USART_ReceiveData(USART1);
+
+	return c;
+}
+
+//================================================
+static void USART_PutC(u8 c)
+{
+	while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET) {};
+	USART_SendData(USART1,c);
+	while(USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET) {};
+}
+
+//================================================
+static void write_mem(void)
+{
+	u32 addr = 0;
+	u16 i = 0;
+	u8 temp[4];
+	u16 length = 0; 
+	u32 data = 0;
+	u8 crc = 0;
+	FLASH_Status status = FLASH_COMPLETE;
+		
+	// Receive start address
+	for(i=0;i<4;i++)
+		temp[i] = USART_GetC();
+	crc = USART_GetC();
+	if(crc == (temp[0]^temp[1]^temp[2]^temp[3]))
+	{
+		mem_cpy(&addr,temp,4);
+		USART_PutC(ACK);
+		length = USART_GetC();
+		length = (length<<8) | USART_GetC();
+		for(i = 0;i<length;i++)
+			fwBuff[i] = USART_GetC();
+		crc = USART_GetC();
+		// Write memmory
+		FLASH_UnlockBank1();
+		if(!flagUpdate)
+		{
+			// Disable systick 
+			SysTick->CTRL  &=~( SysTick_CTRL_CLKSOURCE_Msk | 
+		                   SysTick_CTRL_TICKINT_Msk   | 
+		                   SysTick_CTRL_ENABLE_Msk);
+			FLASH_ErasePage(FLAG_ADDR);
+			status = FLASH_ProgramWord(FLAG_ADDR,(u32)FLAG_UPDATING);
+			flagUpdate = true;
+		}
+		FLASH_ErasePage(addr);
+		for(i = 0;i<length;i+=4)
+		{
+			mem_cpy(&data,&fwBuff[i],((length-i)>4?4:(length-i)));
+			status = FLASH_ProgramWord(addr,data);
+			addr += 4;
+		}
+		FLASH_LockBank1();
+		USART_PutC(ACK);
+	}
+	else
+		USART_PutC(NACK);
+}
+
+//================================================
+void updateFW_control(void)
+{
+	u8 cmd = 0;
+	u8 crc = 0;
+	u32* flagAddr;
+	u32 flagValue = 0;
+	
+	while(1)
+	{
+		// Reload IWDG counter 
+	   	IWDG_ReloadCounter();		
+		cmd = USART_GetC();
+		switch(cmd)
+		{
+			case CMD_WRITE:
+				crc = USART_GetC();
+				if(crc == (CMD_WRITE^0xFF))
+				{
+					// Ack to host
+					USART_PutC(ACK);
+					write_mem();
+				}
+				else
+					USART_PutC(NACK);
+				break;
+			case CMD_REBOOT:
+				crc = USART_GetC();
+				if(crc == (CMD_REBOOT^0xFF))
+				{
+					// Ack to host
+					USART_PutC(ACK);
+					// Reboot uC
+					NVIC_SystemReset();
+				}
+				else
+					USART_PutC(NACK);
+				break;
+			case CMD_UPDATE_COMPLETE:				
+				if(flagUpdate)
+				{
+					// Write memmory
+					FLASH_UnlockBank1();
+					FLASH_ErasePage(FLAG_ADDR);
+					FLASH_ProgramWord(FLAG_ADDR,(u32)FLAG_UPDATED);
+					flagUpdate = false;
+					FLASH_LockBank1();
+				}
+				USART_PutC(ACK);
+				break;
+			case CMD_RUN_APP:
+				// Read out flag value
+				flagAddr = (u32*)FLAG_ADDR;
+				flagValue = (u32)(*flagAddr);
+				if(flagValue == FLAG_UPDATED)
+				{
+					USART_PutC(ACK);
+					// Disable systick 
+					SysTick->CTRL  &=~( SysTick_CTRL_CLKSOURCE_Msk | 
+				                   SysTick_CTRL_TICKINT_Msk	| 
+				                   SysTick_CTRL_ENABLE_Msk);
+					
+					// Jump to user application 
+					JumpAddress = *(__IO u32*) (MAIN_APP_ADDR+ 4);
+					Jump_To_Application = (pFunction) JumpAddress;
+					// Initialize user application's Stack Pointer 
+					__set_MSP(*(__IO u32*) MAIN_APP_ADDR);
+					Jump_To_Application();
+				}
+				else
+				{
+					USART_PutC(NACK);
+				}
+				
+				break;
+			default:
+				break;
+		}
+		timingCount = 0;
+	}
+}
+

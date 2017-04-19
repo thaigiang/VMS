@@ -1,0 +1,7 @@
+---- fGetIMEI Matches (6 in 2 files) ----
+CustomHTTPApp.c:bool fGetIMEI = false;
+CustomHTTPApp.c:			fGetIMEI = true;
+CustomHTTPApp.c:	if(!fGetIMEI)
+Main.c:extern bool fGetIMEI;
+Main.c:		if(fGetIMEI)
+Main.c:			fGetIMEI = false;

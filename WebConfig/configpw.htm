@@ -1,0 +1,18 @@
+~inc:header.inc~
+~inc:configheader.inc~
+
+<form method="post" action="/configpw.htm" name="configpw">
+<fieldset>
+<p style="color:red;">Lưu ý mật khẩu mới không quá 20 kí tự</p></br>
+<div><label>Mật khẩu hiện tại:</label>
+<input type="password" name="opwd" value="~opwd~"/></div>
+<div><label>Mật khẩu mới:</label>
+<input type="password" name="npwd" value="~npwd~" /></div>
+<div><label>Xác nhận mật khẩu mới:</label>
+<input type="password" name="cpwd" value="~cpwd~" /></div>
+
+<div><input type="submit" class="sm" value="Lưu" /></div>
+</fieldset>
+</form>
+</div>
+~inc:footer.inc~

@@ -1,0 +1,52 @@
+~inc:header.inc~
+~inc:configheader.inc~
+
+<form method="post" action="/confignw.htm" name="confignw">
+<fieldset>
+<div><label>Server IP Address:</label>
+<input type="text" name="host" value="~config_hostIP~" /></div>
+<div><label>Operation Port:</label>
+<input type="text" name="opp" value="~config_opport~" style="width:80px;" /></div>
+<div><label>Alert Port:</label>
+<input type="text" name="alp" value="~config_alport~" style="width:80px;" /></div>
+<div>&nbsp;</div>
+<div><label>MAC Address:</label>
+<input type="text" name="mac" value="~config_mac~" /></div>
+<div><label>IP Address:</label>
+<input type="text" name="ip" value="~config_ip~" disabled="disabled"/></div>
+<div><label>Gateway:</label>
+<input type="text" name="gw" value="~config_gw~" disabled="disabled"/></div>
+<div><label>Subnet Mask:</label>
+<input type="text" name="sub" value="~config_subnet~" disabled="disabled"/></div>
+<div>
+<label>GPRS:</label>
+<select name="gprs" id="gp" onchange="configSIMBoxes()" >
+	<option value="1" ~gprs_1~>Enable</option>
+	<option value="0" ~gprs_2~>Disable</option>
+</select>
+</div>
+<div>
+<label>Loại SIM:</label>
+<select name="type">
+	<option value="1" ~sim_1~>Viettel</option>
+	<!--<option value="2" ~sim_2~>Vinaphone</option>
+	<option value="3" ~sim_3~>Mobifone</option>-->
+</select>
+</div>
+<div><input type="submit" class="sm" value="Lưu" /></div>
+</fieldset>
+</form>
+</div>
+
+<script language="javascript">
+function configSIMBoxes() {
+	var e = document.forms.confignw;
+	var st = document.getElementById('gp');
+	if(st.options[st.selectedIndex].value == '1')
+		e.type.disabled = false;
+	else
+		e.type.disabled = true;
+}
+configSIMBoxes();
+</script>
+~inc:footer.inc~

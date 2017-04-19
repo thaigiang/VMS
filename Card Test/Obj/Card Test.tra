@@ -1,0 +1,37 @@
+*** Creating Trace Output File '.\Obj\Card Test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\demo.o"'
+### List of Objects: adding '".\obj\font5x7.o"'
+### List of Objects: adding '".\obj\gdi.o"'
+### List of Objects: adding '".\obj\mth.o"'
+### List of Objects: adding '".\obj\sys.o"'
+### List of Objects: adding '".\obj\video.o"'
+### List of Objects: adding '".\obj\hardwareconfig.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\startup_stm32f10x_hd.o" ".\obj\core_cm3.o" ".\obj\system_stm32f10x.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_gpio.o" ".\obj\misc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_dma.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\demo.o" ".\obj\font5x7.o" ".\obj\gdi.o" ".\obj\mth.o" ".\obj\sys.o" ".\obj\video.o" ".\obj\hardwareconfig.o" --strict --scatter ".\Obj\Card Test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\Card Test.map" -o ".\Obj\Card Test.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\Card Test.axf'
+### ADS-LD Command File: '.\Obj\Card Test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\Card Test.lnp', Handle=0x000008A0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\Card Test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

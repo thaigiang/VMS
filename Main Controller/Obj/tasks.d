@@ -1,0 +1,15 @@
+.\Obj\tasks.o: FreeRTOS\tasks.c
+.\Obj\tasks.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\Obj\tasks.o: C:\Keil\ARM\RV31\INC\stdlib.h
+.\Obj\tasks.o: C:\Keil\ARM\RV31\INC\string.h
+.\Obj\tasks.o: .\FreeRTOS\include\FreeRTOS.h
+.\Obj\tasks.o: C:\Keil\ARM\RV31\INC\stddef.h
+.\Obj\tasks.o: .\FreeRTOS\include\projdefs.h
+.\Obj\tasks.o: .\Project\FreeRTOSConfig.h
+.\Obj\tasks.o: .\FreeRTOS\include\portable.h
+.\Obj\tasks.o: .\FreeRTOS\Portable\Keil\portmacro.h
+.\Obj\tasks.o: .\FreeRTOS\include\mpu_wrappers.h
+.\Obj\tasks.o: .\FreeRTOS\include\task.h
+.\Obj\tasks.o: .\FreeRTOS\include\list.h
+.\Obj\tasks.o: .\FreeRTOS\include\timers.h
+.\Obj\tasks.o: .\FreeRTOS\include\StackMacros.h

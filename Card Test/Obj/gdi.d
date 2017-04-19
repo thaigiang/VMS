@@ -1,0 +1,9 @@
+.\Obj\gdi.o: Project\gdi.c
+.\Obj\gdi.o: Project\gdi.h
+.\Obj\gdi.o: Project\gdptypes.h
+.\Obj\gdi.o: Project\mth.h
+.\Obj\gdi.o: Project\video.h
+.\Obj\gdi.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\gdi.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\Obj\gdi.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\Obj\gdi.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h

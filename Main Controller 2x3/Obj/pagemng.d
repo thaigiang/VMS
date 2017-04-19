@@ -1,0 +1,17 @@
+.\obj\pagemng.o: Project\pageMng.c
+.\obj\pagemng.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+.\obj\pagemng.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\pagemng.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\obj\pagemng.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\obj\pagemng.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\obj\pagemng.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\pagemng.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\obj\pagemng.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\obj\pagemng.o: Project\typedef.h
+.\obj\pagemng.o: Project\common.h
+.\obj\pagemng.o: Project\ff.h
+.\obj\pagemng.o: Project\ffconf.h
+.\obj\pagemng.o: Project\diskio.h
+.\obj\pagemng.o: Project\dataStruct.h
+.\obj\pagemng.o: Project\pageMng.h
+.\obj\pagemng.o: Project\c_func.h

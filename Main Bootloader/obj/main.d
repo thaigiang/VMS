@@ -1,0 +1,17 @@
+.\obj\main.o: Project\main.c
+.\obj\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\obj\main.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\obj\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\obj\main.o: Project\stm32f10x_conf.h
+.\obj\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\obj\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\obj\main.o: Project\HardwareConfig.h
+.\obj\main.o: Project\typedef.h
+.\obj\main.o: Project\common.h
+.\obj\main.o: Project\ff.h
+.\obj\main.o: Project\ffconf.h
+.\obj\main.o: Project\diskio.h
+.\obj\main.o: Project\updateFW.h

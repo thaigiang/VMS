@@ -1,0 +1,418 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\LED Matrix project\SVN\trunk\WIP\thaibv\Source Code\VMS Controller\ICON V1.1\Main Bootloader\Main Bootloader.uvproj
+Project File Date:  03/18/2014
+
+<h2>Output:</h2>
+Build target 'Main Bootloader'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_rcc.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(23): error:  #5: cannot open source input file "stm32f10x_rcc.h": No such file or directory
+compiling stm32f10x_spi.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(23): error:  #5: cannot open source input file "stm32f10x_spi.h": No such file or directory
+compiling stm32f10x_flash.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(23): error:  #5: cannot open source input file "stm32f10x_flash.h": No such file or directory
+compiling stm32f10x_gpio.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(23): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+compiling stm32f10x_it.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling ccsbcs.c...
+compiling diskio.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling ff.c...
+Project\ff.c(1671): warning:  #111-D: statement is unreachable
+compiling HardwareConfig.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling main.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling updateFW.c...
+Project\updateFW.c(1): error:  #5: cannot open source input file "stm32f10x_flash.h": No such file or directory
+".\Main Bootloader.axf" - 9 Errors, 1 Warning(s).
+Target not created
+Build target 'Main Bootloader'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_rcc.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c(23): error:  #5: cannot open source input file "stm32f10x_rcc.h": No such file or directory
+compiling stm32f10x_spi.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c(23): error:  #5: cannot open source input file "stm32f10x_spi.h": No such file or directory
+compiling stm32f10x_flash.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c(23): error:  #5: cannot open source input file "stm32f10x_flash.h": No such file or directory
+compiling stm32f10x_gpio.c...
+Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c(23): error:  #5: cannot open source input file "stm32f10x_gpio.h": No such file or directory
+compiling stm32f10x_it.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling ccsbcs.c...
+compiling diskio.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling ff.c...
+Project\ff.c(1671): warning:  #111-D: statement is unreachable
+compiling HardwareConfig.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling main.c...
+D:\Keil 4.72\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling updateFW.c...
+Project\updateFW.c(1): error:  #5: cannot open source input file "stm32f10x_flash.h": No such file or directory
+".\Main Bootloader.axf" - 9 Errors, 1 Warning(s).
+Target not created
+Clean started: Project: 'Main Bootloader'
+   deleting intermediate output files for target 'Main Bootloader'
+Build target 'Main Bootloader'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_it.c...
+Project\stm32f10x_it.c(30): error:  #5: cannot open source input file "dataStruct.h": No such file or directory
+compiling ccsbcs.c...
+compiling diskio.c...
+Project\diskio.c(536): warning:  #550-D: variable "d" was set but never used
+Project\diskio.c(156): warning:  #177-D: function "release_spi" was declared but never referenced
+compiling ff.c...
+Project\ff.c(1671): warning:  #111-D: statement is unreachable
+compiling HardwareConfig.c...
+compiling main.c...
+Project\main.c(20): warning:  #223-D: function "initBoard" declared implicitly
+Project\main.c(28): error:  #159: declaration is incompatible with previous "initBoard" (declared at line 20)
+Project\main.c(50): error:  #20: identifier "Fatfs" is undefined
+Project\main.c(55): error:  #20: identifier "imgDir" is undefined
+Project\main.c(57): error:  #20: identifier "pageDir" is undefined
+Project\main.c(59): error:  #20: identifier "fontDir" is undefined
+Project\main.c(61): error:  #20: identifier "LOG_DIR" is undefined
+Project\main.c(63): error:  #20: identifier "sysStatus" is undefined
+Project\main.c(66): error:  #20: identifier "sysStatus" is undefined
+Project\main.c(70): error:  #20: identifier "sysStatus" is undefined
+Project\main.c(41): warning:  #550-D: variable "rc" was set but never used
+compiling updateFW.c...
+Project\updateFW.c(25): warning:  #550-D: variable "status" was set but never used
+".\obj\Main Bootloader.axf" - 10 Errors, 6 Warning(s).
+Target not created
+Build target 'Main Bootloader'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_it.c...
+compiling ccsbcs.c...
+compiling diskio.c...
+Project\diskio.c(536): warning:  #550-D: variable "d" was set but never used
+Project\diskio.c(156): warning:  #177-D: function "release_spi" was declared but never referenced
+compiling ff.c...
+Project\ff.c(1671): warning:  #111-D: statement is unreachable
+compiling HardwareConfig.c...
+compiling main.c...
+Project\main.c(20): warning:  #223-D: function "initBoard" declared implicitly
+Project\main.c(28): error:  #159: declaration is incompatible with previous "initBoard" (declared at line 20)
+Project\main.c(50): error:  #20: identifier "Fatfs" is undefined
+Project\main.c(55): error:  #20: identifier "imgDir" is undefined
+Project\main.c(57): error:  #20: identifier "pageDir" is undefined
+Project\main.c(59): error:  #20: identifier "fontDir" is undefined
+Project\main.c(61): error:  #20: identifier "LOG_DIR" is undefined
+Project\main.c(63): error:  #20: identifier "sysStatus" is undefined
+Project\main.c(66): error:  #20: identifier "sysStatus" is undefined
+Project\main.c(70): error:  #20: identifier "sysStatus" is undefined
+Project\main.c(41): warning:  #550-D: variable "rc" was set but never used
+compiling updateFW.c...
+Project\updateFW.c(25): warning:  #550-D: variable "status" was set but never used
+".\obj\Main Bootloader.axf" - 9 Errors, 6 Warning(s).
+Target not created
+Build target 'Main Bootloader'
+compiling stm32f10x_it.c...
+compiling main.c...
+Project\main.c(26): warning:  #223-D: function "initBoard" declared implicitly
+Project\main.c(34): error:  #159: declaration is incompatible with previous "initBoard" (declared at line 26)
+Project\main.c(47): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(48): warning:  #550-D: variable "dr" was set but never used
+".\obj\Main Bootloader.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Build target 'Main Bootloader'
+compiling main.c...
+Project\main.c(48): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(49): warning:  #550-D: variable "dr" was set but never used
+linking...
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_Cmd (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_GetCalibrationStatus (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_GetResetCalibrationStatus (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_Init (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_RegularChannelConfig (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_ResetCalibration (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_SoftwareStartConvCmd (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol ADC_StartCalibration (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol EXTI_Init (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol EXTI_StructInit (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol NVIC_Init (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol NVIC_PriorityGroupConfig (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol TIM_Cmd (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol TIM_ITConfig (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol TIM_TimeBaseInit (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol USART_Cmd (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol USART_ITConfig (referred from hardwareconfig.o).
+.\obj\Main Bootloader.axf: Error: L6218E: Undefined symbol USART_Init (referred from hardwareconfig.o).
+".\obj\Main Bootloader.axf" - 18 Errors, 2 Warning(s).
+Target not created
+Build target 'Main Bootloader'
+compiling stm32f10x_it.c...
+compiling diskio.c...
+Project\diskio.c(536): warning:  #550-D: variable "d" was set but never used
+Project\diskio.c(156): warning:  #177-D: function "release_spi" was declared but never referenced
+compiling HardwareConfig.c...
+compiling main.c...
+Project\main.c(48): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(49): warning:  #550-D: variable "dr" was set but never used
+linking...
+Program Size: Code=17898 RO-data=1738 RW-data=68 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 4 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17898 RO-data=1738 RW-data=68 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17898 RO-data=1738 RW-data=68 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_it.c...
+compiling HardwareConfig.c...
+compiling main.c...
+Project\main.c(48): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(49): warning:  #550-D: variable "dr" was set but never used
+linking...
+Program Size: Code=17898 RO-data=1738 RW-data=68 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 2 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17898 RO-data=1738 RW-data=68 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+compiling main.c...
+Project\main.c(55): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(56): warning:  #550-D: variable "dr" was set but never used
+linking...
+Program Size: Code=17978 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 2 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17978 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17978 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+compiling main.c...
+Project\main.c(55): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(56): warning:  #550-D: variable "dr" was set but never used
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 2 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+compiling main.c...
+Project\main.c(53): warning:  #177-D: variable "rc" was declared but never referenced
+Project\main.c(54): warning:  #550-D: variable "dr" was set but never used
+compiling updateFW.c...
+Project\updateFW.c(25): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 3 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=17982 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Controller\\ICON V1.1\\Main Bootloader\\obj\\Main Bootloader.axf" 
+Set JLink Project File to "E:\Project\LED Matrix project\SVN\trunk\WIP\thaibv\Source Code\VMS Controller\ICON V1.1\Main Bootloader\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: STM32F1xxx: Can not attach to CPU. Trying connect under reset.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Controller\\ICON V1.1\\Main Bootloader\\obj\\Main Bootloader.axf" 
+Set JLink Project File to "E:\Project\LED Matrix project\SVN\trunk\WIP\thaibv\Source Code\VMS Controller\ICON V1.1\Main Bootloader\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Main Bootloader'
+compiling updateFW.c...
+Project\updateFW.c(25): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=18018 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 1 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=18018 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Controller\\ICON V1.1\\Main Bootloader\\obj\\Main Bootloader.axf" 
+Set JLink Project File to "E:\Project\LED Matrix project\SVN\trunk\WIP\thaibv\Source Code\VMS Controller\ICON V1.1\Main Bootloader\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Main Bootloader'
+compiling updateFW.c...
+Project\updateFW.c(25): warning:  #550-D: variable "status" was set but never used
+linking...
+Program Size: Code=18018 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 1 Warning(s).
+Build target 'Main Bootloader'
+linking...
+Program Size: Code=18018 RO-data=1738 RW-data=76 ZI-data=38396  
+FromELF: creating hex file...
+".\obj\Main Bootloader.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\Project\\LED Matrix project\\SVN\\trunk\\WIP\\thaibv\\Source Code\\VMS Controller\\ICON V1.1\\Main Bootloader\\obj\\Main Bootloader.axf" 
+Set JLink Project File to "E:\Project\LED Matrix project\SVN\trunk\WIP\thaibv\Source Code\VMS Controller\ICON V1.1\Main Bootloader\JLinkSettings.ini"
+* JLink Info: Device "STM32F103VE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
